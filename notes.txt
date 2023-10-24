@@ -1,0 +1,20 @@
+npmtrends   
+bundling building tools 
+    vite (esbuilds) helps larger projects save their code faster
+        scales faster b/c dynamically loads modules rather than building all together like creat-react-app
+        server side rendering here, a pro
+        transitioning is painless from create-react-apps
+    nextjs
+        wildy growing popular and growing
+        by vercel (some FB peeps left to go to vercel, concerning some developers on monopoly over react)
+        react server components 
+    probably not important, but pnpm is preferred
+
+
+npm create vite@latest
+    TypeScript + SWC-swc is faster
+    npm run dev to do stuff
+
+    main.tsx is entrypoint
+
+    <script type="module" src="/src/main.tsx"></script> receives components
